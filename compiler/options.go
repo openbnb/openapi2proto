@@ -1,6 +1,6 @@
 package compiler
 
-import "github.com/NYTimes/openapi2proto/internal/option"
+import "github.com/openbnb/openapi2proto/internal/option"
 
 const (
 	optkeyAnnotation = "annotation"

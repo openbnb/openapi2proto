@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NYTimes/openapi2proto"
-	"github.com/NYTimes/openapi2proto/compiler"
+	"github.com/openbnb/openapi2proto"
+	"github.com/openbnb/openapi2proto/compiler"
 	"github.com/pmezard/go-difflib/difflib"
 )
 

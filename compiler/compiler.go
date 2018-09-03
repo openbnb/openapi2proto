@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/NYTimes/openapi2proto/openapi"
-	"github.com/NYTimes/openapi2proto/protobuf"
+	"github.com/openbnb/openapi2proto/openapi"
+	"github.com/openbnb/openapi2proto/protobuf"
 	"github.com/pkg/errors"
 )
 
@@ -265,7 +265,7 @@ func (c *compileCtx) compileParametersToSchema(params openapi.Parameters) (*open
 }
 
 func (c *compileCtx) compilePath(path string, p *openapi.Path) error {
-	for _, e := range []*openapi.Endpoint{p.Get, p.Put, p.Post, p.Delete} {
+	for _, e := range []*openapi.Endpoint{p.Get, p.Put, p.Post, p.Patch, p.Delete} {
 		if e == nil {
 			continue
 		}

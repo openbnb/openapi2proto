@@ -1,7 +1,7 @@
 package openapi
 
 import (
-	"github.com/NYTimes/openapi2proto/internal/option"
+	"github.com/openbnb/openapi2proto/internal/option"
 )
 
 const (
@@ -70,6 +70,7 @@ type Path struct {
 	Get        *Endpoint  `yaml:"get" json:"get"`
 	Put        *Endpoint  `yaml:"put" json:"put"`
 	Post       *Endpoint  `yaml:"post" json:"post"`
+	Patch      *Endpoint  `yaml:"patch" json:"patch"`
 	Delete     *Endpoint  `yaml:"delete" json:"delete"`
 	Parameters Parameters `yaml:"parameters" json:"parameters"`
 }

@@ -3,9 +3,9 @@ package openapi2proto
 import (
 	"io"
 
-	"github.com/NYTimes/openapi2proto/compiler"
-	"github.com/NYTimes/openapi2proto/openapi"
-	"github.com/NYTimes/openapi2proto/protobuf"
+	"github.com/openbnb/openapi2proto/compiler"
+	"github.com/openbnb/openapi2proto/openapi"
+	"github.com/openbnb/openapi2proto/protobuf"
 	"github.com/pkg/errors"
 )
 
